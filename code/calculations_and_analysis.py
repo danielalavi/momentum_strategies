@@ -222,7 +222,7 @@ comp_ind_mtl = (comp_ind + 1) ** (1/K) - 1
 comp_ind_mtl.index = j6k6.index
 
 # load the factors
-ff3 = pd.read_csv('monthlyfactors.csv')
+ff3 = pd.read_csv('../data/monthlyfactors.csv')
 # select data from january 1996
 ff3 = ff3.iloc[183:]
 # add correct index for available time horizon 
